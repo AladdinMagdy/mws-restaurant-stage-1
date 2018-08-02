@@ -19,5 +19,7 @@ In a terminal, check the version of Python you have: `python -V`. If you have Py
 ### Accomplishments
 
 [x] Added A11y.
+
 [x] Added Responsiveness.
+
 [x] Added Service worker for progressive enhancement.
