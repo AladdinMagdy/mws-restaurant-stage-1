@@ -1,0 +1,85 @@
+nav h1 {
+  padding-top: 10px;
+}
+
+#restaurants-list {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#restaurants-list li {
+  max-width: 270px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #maincontent {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .inside #footer {
+    width: 100%;
+  }
+
+  #restaurant-container, #reviews-container {
+    width: 80%;
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #reviews-container
+  #reviews-list li {
+    margin: 0 auto 30px;
+  }
+
+
+  #restaurant-container p,
+  #restaurant-container table {
+    margin: 0 auto 20px;
+
+  }
+
+  .inside #map-container {
+    position: static;
+    width: 100%;
+    height: 500px;
+  }
+
+  .leaflet-control-container {
+    position: relative;
+    top: 100px;
+    z-index: 500;
+  }
+
+  #breadcrumb {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 601px) {
+  #restaurant-container {
+    padding: 140px 35px 30px;
+  }
+
+  #reviews-container {
+    padding: 50px 35px 30px;
+  }
+
+  #breadcrumb {
+    width: 50%;
+  }
+
+  .leaflet-control-container {
+    position: relative;
+    top: 50px;
+    z-index: 500;
+  }
+}
